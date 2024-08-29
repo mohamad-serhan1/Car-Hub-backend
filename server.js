@@ -23,7 +23,7 @@ const PORT = process.env.PORT || 3001;
 
 // CORS configuration
 const corsOptions = {
-  origin: "https://carhub-frontend.vercel.app", // Allow requests from this origin
+  origin: "https://car-hub-frontend.vercel.app", // Allow requests from this origin
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE", // Allowed methods
   credentials: true, // Allow cookies to be sent
   allowedHeaders: "Content-Type,Authorization", // Allowed headers
